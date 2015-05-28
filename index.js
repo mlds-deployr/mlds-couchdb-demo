@@ -1,5 +1,10 @@
+/*!
+ *  Copyright (C) 2010-2015 by Revolution Analytics Inc.
+ *  Released under the Apache License 2.0
+ *  http://www.apache.org/licenses/LICENSE-2.0
+ */
 var deployr    = require('deployr').configure({ host: 'http://166.78.105.110:7400' }),
-	stream     = require('stream')
+    stream     = require('stream')
     JSONStream = require('JSONStream'),
     got        = require('got'),
     nano       = require('nano')('http://localhost:5984'),
