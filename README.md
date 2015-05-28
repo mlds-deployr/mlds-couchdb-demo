@@ -2,7 +2,9 @@
 
 Same DeployR enabled R Script, diffrent client.
 
-This example can be used in conjunction with the [mlds-ui-demo](https://github.com/mlds-deployr/mlds-ui-demo) to demonstrate how a **different** DeployR consumer/client can invoke the same R Script [/sheri/geo/RUGclusters.R](https://github.com/mlds-deployr/mlds-ui-demo#rugclustersr) and do something different with the result.
+This example can be used in conjunction with the [mlds-ui-demo](https://github.com/mlds-deployr/mlds-ui-demo) to demonstrate how a **different** DeployR consumer/client can invoke the same R Script [/sheri/geo/RUGclusters.R](https://github.com/mlds-deployr/mlds-ui-demo#rugclustersr) and do something different with the result. For this example,
+the **geoJSON** returned from calling [/sheri/geo/RUGclusters.R](https://github.com/mlds-deployr/mlds-ui-demo#rugclustersr) is stored in [CouchDB](http://couchdb.apache.org)
+rather than building a UI as we did in [mlds-ui-demo](https://github.com/mlds-deployr/mlds-ui-demo).
 
 ## Prerequisites
 
