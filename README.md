@@ -51,7 +51,7 @@ geo._transform = function(chunk, encoding, done) {
 };
 
 //
-// Execute `uspop.R` in DeployR and pipe geoJSON response into CouchDB
+// Execute `RUGclusters.R` in DeployR and pipe geoJSON response into CouchDB
 //
 deployr.script('/sheri/geo/RUGclusters.R')
     .numeric('nclus', 5)
