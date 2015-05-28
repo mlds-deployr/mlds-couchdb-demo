@@ -25,8 +25,7 @@ rather than building a UI as we did in [mlds-ui-demo](https://github.com/mlds-de
    [/sheri/geo/RUGclusters.R](https://github.com/mlds-deployr/mlds-ui-demo#rugclustersr)
    under the `feature` Database.
 
-
- ```js
+```js
 var deployr    = require('deployr').configure({ host: 'http://166.78.105.110:7400' }),
     stream     = require('stream')
     JSONStream = require('JSONStream'),
